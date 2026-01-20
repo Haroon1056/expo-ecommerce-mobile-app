@@ -2,7 +2,7 @@
   "name": "e-commerce-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "dev": "node --watch src/server.js",
     "start": "node src/server.js"
@@ -13,6 +13,7 @@
   "type": "module",
   "dependencies": {
     "dotenv": "^17.2.3",
+    "e-commerce-mobile-app": "file:..",
     "express": "^5.2.1"
   }
 }
